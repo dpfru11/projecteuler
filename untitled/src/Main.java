@@ -1,5 +1,5 @@
 void main() {
-    echoProblem1();
+    echoProblem10();
 
 }
 
@@ -12,3 +12,16 @@ static void echoProblem1() {
     Problem1 problem1 = new Problem1();
     IO.println("Answer: " + problem1.sumMultiples3or5(1000));
 }
+
+/*
+* Sum of primes below limit
+ */
+static void echoProblem10() {
+    IO.println("Answer: " + Problem10.iterativeSummationOfPrimes(2000000));
+
+    //TODO: Iterative implementation
+
+
+}
+
+
