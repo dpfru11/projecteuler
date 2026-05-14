@@ -19,9 +19,6 @@ static void echoProblem1() {
 static void echoProblem10() {
     IO.println("Answer: " + Problem10.iterativeSummationOfPrimes(2000000));
 
-    //TODO: Iterative implementation
-
-
 }
 
 
